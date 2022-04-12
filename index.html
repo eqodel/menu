@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="menu__overlay"></div>
+    <header class="header">
+        <div class="header__wrap">
+            <div class="header__language">
+                <span>RU</span>
+                <img src="img/language.svg" alt="">
+            </div>
+            <div class="header__socials">
+                <img src="img/tg.svg" alt="">
+                <img src="img/whats.svg" alt="">
+            </div>
+            <div class="header__phone">
+                <a href="tel:+7 (499) 877-41-45" class="header__number">+7 (499) 877-41-45</a>
+                <span class="header__ordercall">Заказать звонок</span>
+            </div>
+            <div class="header__basket">
+                <div class="header__basket-img">
+                    <img src="img/shopping-bag.svg" alt="">
+                </div>
+                <span class="header__basket-name">Корзина</span>
+            </div>
+            <button class="header__menu">
+                <div class="header__menu-wrapper">
+                    <div class="header__menu-item"></div>
+                    <div class="header__menu-item"></div>
+                    <div class="header__menu-item"></div>
+                </div>
+            </button>
+        </div>
+    </header>
+    <section class="menu">
+        <div class="menu__wrapper">
+            <div class="menu__title">
+                <h2>Меню</h2>
+                <div class="header__language menu__language">
+                    <span>RU</span>
+                    <img src="img/language.svg" alt="">
+                </div>
+            </div>
+            <form class="menu__search search">
+                <input type="text" placeholder="Поиск...">
+                <button>
+                    <img src="img/search.svg" alt="">
+                </button>
+            </form>
+            <div class="menu__line"></div>
+            <ul class="menu__list list" id="list">
+                <li><a href="#">Каталог</a></li>
+                <li>Майнинг отель
+                    <img class="list__img" src="img/arrow-up.svg" alt="">
+                  <ul>
+                      <ul>
+                        <li>Калининская АЭС</li>
+                        <li>ПАО «Тулачермет»</li>
+                      </ul>
+                  </ul>
+                </li>
+                <li><a href="#">Лизинг</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Новости и блог</a></li>
+                <li><a href="#">Оплата и доставка</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Вакансии</a></li>
+            </ul>
+              <div class="menu__footer">
+                <div class="menu__line menu__line-phone">
+
+                </div>
+                <div class="header__phone menu__phone">
+                  <a href="tel:+7 (499) 877-41-45" class="header__number menu__number">+7 (499) 877-41-45</a>
+                  <span class="header__ordercall menu__ordercall">Заказать звонок</span>
+                </div>
+                <div class="header__socials menu__socials">
+                  <img src="img/tg.svg" alt="">
+                  <img src="img/whats.svg" alt="">
+                </div>
+              </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
