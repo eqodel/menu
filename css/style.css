@@ -368,7 +368,7 @@
   .menu__line-phone {
     display: block;
     width: 112%;
-    margin: 0 -25px;
+    margin: -10px -25px;
   }
   .menu__list {
     margin-top: 0;
