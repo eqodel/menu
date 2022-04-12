@@ -229,6 +229,10 @@
   right: 0;
 }
 
+.menu__line-phone {
+  display: none;
+}
+
 .menu__list {
   margin-top: 50px;
 }
@@ -272,11 +276,6 @@
   margin-top: 30px;
   border-right: none;
   display: none;
-}
-
-.menu__phone-line img {
-  width: 100%;
-  position: absolute;
 }
 
 .menu__number {
